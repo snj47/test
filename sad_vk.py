@@ -26,4 +26,18 @@ for event in longpoll.listen():
             if text == "привет":
                 send_message(user_id, "ку")
                 print(text)
-
+            elif text == "пока":
+                send_message(user_id, "ну пока")
+                print(text)
+            elif text == "бот":
+                send_message(user_id, "нет хотя да")
+                print(text)
+            elif text == "слит":
+                send_message(user_id, "мать жива?")
+                print(text)
+            elif text == "ясно":
+                send_message(user_id, "че те ясно??")
+                print(text)
+            else:
+              send_message(user_id, "ладно")
+              print(text)
