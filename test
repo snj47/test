@@ -7,7 +7,7 @@ import time
 print('Бот успешно запущен!')
 
 
-vk = vk_api.VkApi(token="Тут мой token")
+vk = vk_api.VkApi(token="1ec38452a02619f11c71e383337fb84e70dae8a3a7ce939b77fc0232dd35a29087263938fbb9caca5dcde")
 
 vk._auth_token()
 
